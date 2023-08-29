@@ -4,11 +4,9 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
+	
 	<ItemGroup>
-	  <PackageReference Include="Berger.Extensions.Entities" Version="1.0.0.6" />
-	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Interfaces\" />
+		<PackageReference Include="Berger.Extensions.Base" Version="1.0.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
 	</ItemGroup>
 </Project>
