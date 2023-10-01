@@ -4,12 +4,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
-	
+
 	<ItemGroup>
-	  <Folder Include="Configurations\" />
-	</ItemGroup>
-	
-	<ItemGroup>
-	  <PackageReference Include="Berger.Extensions.Base" Version="1.0.0.3" />
+		<Folder Include="Configurations\" />
 	</ItemGroup>
 </Project>

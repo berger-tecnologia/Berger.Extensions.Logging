@@ -1,8 +1,6 @@
-﻿using Berger.Extensions.Base;
-
-namespace Berger.Extensions.Logging
+﻿namespace Berger.Extensions.Logging
 {
-    public class LogDetail : BaseEntity
+    public class LogDetail
     {
         #region Methods
         public void SetInnerException(string inner)

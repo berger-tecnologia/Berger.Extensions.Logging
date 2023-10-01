@@ -1,8 +1,6 @@
-﻿using Berger.Extensions.Base;
-
-namespace Berger.Extensions.Logging
+﻿namespace Berger.Extensions.Logging
 {
-    public class Log : BaseEntity
+    public class Log
     {
         #region Methods
         public void SetDetail()
