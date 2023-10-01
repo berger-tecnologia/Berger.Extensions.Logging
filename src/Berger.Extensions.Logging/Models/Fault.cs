@@ -1,6 +1,8 @@
-﻿namespace Berger.Extensions.Logging
+﻿using Berger.Extensions.Base;
+
+namespace Berger.Extensions.Logging
 {
-    public class Fault
+    public class Fault : BaseEntity
     {
         public string RequestId { get; init; }
         public string Message { get; init; }

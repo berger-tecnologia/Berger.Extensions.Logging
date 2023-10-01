@@ -2,7 +2,7 @@
 
 namespace Berger.Extensions.Logging
 {
-    public class Log : BaseInput
+    public class Log : BaseEntity
     {
         #region Methods
         public void SetDetail()
